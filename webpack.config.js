@@ -12,7 +12,7 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     static: "./dist",
-    watchFile: [".esrc/template.html"],
+    watchFiles: [".esrc/template.html"],
   },
   module: {
     rules: [
